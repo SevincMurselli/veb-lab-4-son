@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My CV</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <div class="left-column">
+      <img src="blank-profile-picture-973460_960_720.webp" alt="Profile Photo" class="profile-photo" />
+
+      <div class="section">
+        <h2 class="left-header">Contact</h2>
+        <div class="section-content contact-list-container">
+          <ul class="contact-list"></ul>
+        </div>
+        <label for="addContact">Add Contact: </label>
+        <input type="text" id="addContact" placeholder="Add contact here" />
+      </div>
+      <div class="section">
+        <h2 class="left-header">Təhsil</h2>
+        <div class="section-content education-list-container">
+          <ul class="education-list"></ul>
+        </div>
+        <label for="addEducation">Add education: </label>
+        <input type="text" id="addEducation" placeholder="Add education here" />
+      </div>
+
+      <div class="section">
+        <h2 class="left-header">Bacarıqlar</h2>
+        <div class="section-content skills-list-container">
+          <ul class="skills-list"></ul>
+        </div>
+        <label for="addSkill">Add skill: </label>
+        <input type="text" id="addSkill" placeholder="Add skill here" />
+      </div>
+
+      <div class="section">
+        <h2 class="left-header">Dil</h2>
+        <div class="section-content languages-list-container">
+          <ul class="languages-list"></ul>
+        </div>
+        <label for="addLang">Add language: </label>
+        <input type="text" id="addLang" placeholder="Add language here" />
+      </div>
+    </div>
+
+    <div class="right-column">
+      <h1>Sevinc Mürsəlli</h1>
+      
+
+      <h2>Profil</h2>
+      <div id="profile-text-wrapper">
+        <p id="profile-text"></p>
+        <button id="edit-profileText" title="Edit">✅</button>
+        <button id="delete-profileText" title="Delete">❌</button>
+        <button id="resetAllBtn">Hamısını Sıfırla</button>
+
+      </div>
+
+     
+
+      <h2>GitHub Profil</h2>
+      <div id="github-link-wrapper">
+        <p>
+          🌐 <a href="#" target="_blank" id="github-link">github.com/Sevincmurselli</a></p>
+        <button id="edit-githubLink" title="Edit">✅</button>
+        <button id="delete-githubLink" title="Delete">❌</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
